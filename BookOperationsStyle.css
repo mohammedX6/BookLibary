@@ -1,0 +1,114 @@
+
+.form {
+  position: relative;
+z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+   text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  font-family: "Roboto", sans-serif;
+}
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+    margin-bottom: 15px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+h1,h2,h3{ 
+    font-weight: 400;
+text-transform: uppercase; 
+}
+ .main-nav{
+    display: inline;
+    justify-content:space-around;
+    list-style-type:none;
+ 
+      text-align: center;
+      text-decoration:inherit;
+     font-size: 130%;
+     
+}
+.main-nav li{
+    margin-left: 40px;
+    padding-top: 10px;
+    display: inline-block;
+   position:relative;
+    
+    
+    
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding:8px 0;
+    
+    color:#fff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    
+  border-bottom: 2px solid #fff; 
+}
+.topHeader{
+    height: 50px;
+    margin-bottom: 15px;
+        background: #4CAF50;
+     text-align: center;
+}
+.h1Header
+{
+    white-space: nowrap;
+    margin-right: 90px;
+    padding-right: 15px;
+}

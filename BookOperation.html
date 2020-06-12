@@ -1,0 +1,39 @@
+<html>
+     <head>
+  <link rel="stylesheet" href="BookOperationsStyle.css">
+</head>
+
+<body>
+     <div class="topHeader">
+      <ul class="main-nav">
+             
+            <li><a href="BorrowerOperations.html">Borrower Operations </a></li>
+            <li><a href="http://localhost/WepAppProject/SellBooks.php">Sell a Book </a></li>
+            <li><a href="http://localhost/WepAppProject/Loan.php">Loan a book</a></li>
+        </ul> 
+      </div>
+  <div class="form">
+    
+      <h1>Book Operations</h1>
+    <form class="Book-form" method ="POST" action ="http://localhost/WepAppProject/BookOperationsPHP.php">
+      <input type="text" placeholder="Id" name = "id"/>
+      <input type="text" placeholder="Title" name = "title"/>
+    <input type="text" placeholder="Publisher" name = "publisher"/>
+    <input type="text" placeholder="Edition" name = "edition"/>
+    <input type="text" placeholder="Price" name = "price"/>
+    <input type="text" placeholder="Stock" name = "stock"/>
+    <h1>Select Operation</h1>
+<select name ="op" class="styled-select slate">
+	<option>Add</option>
+	<option>DELETE</option>
+	<option>Update</option>
+	<option>Search</option>
+	<option>DisplayALL</option>
+    
+</select><br>
+<input type = "Submit" value = "Query"> 
+<input type = "reset" value = "Clear">    
+    </form>
+  </div>
+</body>
+</html>

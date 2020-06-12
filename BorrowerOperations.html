@@ -1,0 +1,29 @@
+<html>
+    <head>
+  <link rel="stylesheet" href="BookOperationsStyle.css">
+</head>
+<body>
+    
+    
+    <div class="form">
+    
+        <div class="h1Header"><h1>Register a Borrower</h1></div>
+    <form class="Book-form" method ="POST" action ="http://localhost/WepAppProject/BorrowerOperationsPHP.php">
+      <input type="text" placeholder="Number" name = "num"/>
+      <input type="text" placeholder="Name" name = "name"/>
+    <input type="text" placeholder="Phone" name = "phone"/>
+    <input type="text" placeholder="BirthDate" name = "Bdate"/>
+    <select name ="op" class="styled-select slate">
+	<option>Register</option>
+	<option>DELETE</option>	
+</select><br>
+<input type = "Submit" value = "Query"> 
+<input type = "reset" value = "Clear">    
+    </form>
+  </div>
+    
+
+</body>
+
+
+</html>
